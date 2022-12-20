@@ -12,7 +12,7 @@ const server = http.createServer(app)
 
 const io = new Server(server, {
     cors: {
-        origin: "https://chessproject16.herokuapp.com/",
+        origin: "https://chessproject16.herokuapp.com",
         methods: ["GET", "POST"],
     },
 });
