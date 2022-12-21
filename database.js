@@ -4,7 +4,7 @@ const User = require('./models/blog');
 const mongoose  = require('mongoose');
 const cors = require('cors')
 const jwt = require('jsonwebtoken')
-const dbURI = 'mongodb+srv://Kalle:KalleMongodb@cluster0.hca77rd.mongodb.net/chessapp?retryWrites=true&w=majority';
+const dbURI = '';
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then((result) => app.listen(4000, () => {
